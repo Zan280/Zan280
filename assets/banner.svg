@@ -1,0 +1,40 @@
+<svg width="850" height="220" viewBox="0 0 850 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#1f1035"/>
+      <stop offset="100%" stop-color="#2d124d"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d6bcfa"/>
+    </linearGradient>
+    <pattern id="pixelGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none"/>
+      <circle cx="2" cy="2" r="1" fill="#6b46c1" fill-opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <!-- Fondo con degradado oscuro y rejilla sutil -->
+  <rect width="850" height="220" rx="12" fill="url(#bgGrad)" stroke="#3b2354" stroke-width="1.5"/>
+  <rect width="850" height="220" rx="12" fill="url(#pixelGrid)"/>
+
+  <!-- Onda inferior morado suave -->
+  <path d="M0 180 C 200 210, 450 150, 850 185 L 850 220 L 0 220 Z" fill="#442168" fill-opacity="0.45"/>
+  <path d="M0 195 C 300 170, 600 215, 850 195 L 850 220 L 0 220 Z" fill="#6c5ce7" fill-opacity="0.3"/>
+
+  <!-- Tipografía y Título -->
+  <text x="50%" y="95" text-anchor="middle" fill="url(#textGrad)" font-family="'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-weight="800" font-size="38" letter-spacing="1">
+    Zan280
+  </text>
+
+  <!-- Subtítulo -->
+  <text x="50%" y="135" text-anchor="middle" fill="#b39ddb" font-family="'Courier New', monospace" font-weight="600" font-size="15" letter-spacing="2">
+    ELECTRONIC ENGINEER  •  SOFTWARE DEVELOPER
+  </text>
+  
+  <!-- Detalle decorativo estilo terminal/pixel -->
+  <text x="50%" y="165" text-anchor="middle" fill="#805ad5" font-family="monospace" font-size="12">
+    [ hardware_builder ~ embedded_systems ~ web_development ~ scripting ]
+  </text>
+</svg>
